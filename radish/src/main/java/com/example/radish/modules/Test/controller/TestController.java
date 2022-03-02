@@ -25,6 +25,6 @@ public class TestController {
         kieSession.insert(user);
         int ruleFiredCount = kieSession.fireAllRules();
         System.out.println("触发了" + ruleFiredCount + "条规则");
-        System.out.println("---------------------------------");
+        System.out.println("---------------------------------1");
     }
 }
